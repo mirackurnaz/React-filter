@@ -1,0 +1,66 @@
+@import url(https://use.fontawesome.com/releases/v5.0.11/css/all.css);
+
+#container{
+  width: 400px;
+  padding: 20px;
+  margin-top: 200px;
+  margin-left: 500px;
+    background: #eaeaea;
+}
+#container h1{
+  text-align: center;
+}
+
+
+ .login-group {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    margin: 0;
+    margin-left: 25px;
+}
+.login-group{
+    width: 300px;
+    padding: 10px;
+    border: 0;
+    border-bottom: 1px solid var(--primary);
+    transition: all 0.6s ease-in-out;
+    
+  
+}
+#login-control {
+  width: 300px;
+  padding: 10px;
+  border: 0;
+  border-bottom: 1px solid var(--primary);
+  transition: all 0.6s ease-in-out;} 
+input:focus{
+    border: 0;
+    border-bottom: 2px solid var(--primary);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+}
+
+
+.login-group button {
+    position: relative;
+    left: 250px;
+    padding: 5px 20px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: .3rem;
+    box-shadow: 0 0 5px;
+    border: 1px solid rgb(212, 156, 25);
+    color: rgb(212, 156, 25);
+    transition: all 500ms ease-in-out;
+}
+ .login-group button:hover, .login-group button:focus {
+    cursor: pointer;
+    background: rgb(212, 156, 25);
+    border-radius: .3rem;
+    box-shadow: 0 0 5px;
+    border: 1px solid rgb(212, 156, 25);
+    color: #fff;
+} 
+
+
